@@ -1,0 +1,25 @@
+Package: quandongr
+Type: Package
+Title: A Reporting Module for Nullarbor
+Version: 0.1
+Date: 2015-10-05
+Authors@R: c(
+    person("Anders", "Gonçalves da Silva", email = "andersgs@gmail.com", role = c("cre", "aut")),
+    person("Torsten", "Seemann", email = "tseemann@gmail.com", role = "aut")
+    )
+Description: The packages provides a single function `make_report`
+            takes the output from Nullarbor, and makes a pretty
+            report.
+URL: http://www.github.com/mdu/quandongr
+BugReports: https://github.com/mdu/quandongr/issues
+License: GPL-3
+LazyData: TRUE
+Imports: knitr,
+    data.table,
+    ggplot2,
+    DT,
+    magrittr,
+    cowplot,
+    ggtree,
+    ape,
+    colorspace
